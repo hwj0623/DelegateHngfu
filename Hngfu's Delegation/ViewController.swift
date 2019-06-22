@@ -16,6 +16,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        unoTextField.delegate = self
+        quattroTextField.delegate = self
+    }
+}
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.title = textField.text
     }
 }
