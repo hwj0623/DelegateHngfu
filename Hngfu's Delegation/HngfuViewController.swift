@@ -10,11 +10,11 @@ import UIKit
 
 class HngfuViewController: UIViewController {
     @IBOutlet weak var hngfuTableView: UITableView!
+    private let player = AudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
     }
     
     @IBAction func tapCloseButton(_ sender: UIBarButtonItem) {
