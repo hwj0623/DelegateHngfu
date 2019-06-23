@@ -87,7 +87,7 @@
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="18.75"/>
         </scene>
-        <!--Hngfu View Controller-->
+        <!--포켓몬 도감-->
         <scene sceneID="mgc-vv-7hR">
             <objects>
                 <viewController id="FFT-jt-RCx" customClass="HngfuViewController" customModule="Hngfu_s_Delegation" customModuleProvider="target" sceneMemberID="viewController">
@@ -198,7 +198,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZYj-oU-aMb"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nMF-0K-fUr">
+                    <navigationItem key="navigationItem" title="포켓몬 도감" id="nMF-0K-fUr">
                         <barButtonItem key="rightBarButtonItem" title="Close" style="done" id="HQE-mp-kGy">
                             <connections>
                                 <action selector="tapCloseButton:" destination="FFT-jt-RCx" id="b6j-1w-o7u"/>
