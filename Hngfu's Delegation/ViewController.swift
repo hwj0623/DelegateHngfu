@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var unoTextField: UITextField!
+    @IBOutlet weak var unoTextField: UITextField!       // TestField입장에서 delegate는 한번에 1개만 올 수 있다. 
     @IBOutlet weak var dueTextField: UITextField!
     @IBOutlet weak var treTextField: UITextField!
     @IBOutlet weak var quattroTextField: UITextField!

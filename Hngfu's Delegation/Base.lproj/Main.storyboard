@@ -206,6 +206,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="hngfuTableTitle" destination="nMF-0K-fUr" id="LQZ-pf-Wwn"/>
                         <outlet property="hngfuTableView" destination="OMo-Ni-SLu" id="G92-ZO-c0b"/>
                     </connections>
                 </viewController>
